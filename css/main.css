@@ -1,0 +1,157 @@
+footer {
+	position: relative;
+	height: 50px;
+	background-color: lawngreen;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+	clear:both;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+.left {
+	float:left;
+	width:45%;
+	margin:2.5%;
+}
+
+.right{
+	float:right;
+	width:45%;
+	margin:2.5%;
+}
+
+#Logo{
+	width:200px;
+	height:200px;
+	top:50px;
+
+}
+
+footer p {
+	position: relative;
+	padding-top: 15px;
+}
+
+body {
+	background-color:greenyellow;
+}
+
+.content td{
+	border-radius:5%;
+	border: 1px solid black;
+}
+
+.content thead th{
+	text-align:center;
+}
+
+.content h4{
+	font-weight:800;
+	font-family:times;
+}
+.content li{
+	list-style:none;
+	font-family: calibri;
+	font-size:15px;
+}
+
+
+.jumbotron {
+  background-image:url('http://pixabay.com/static/uploads/photo/2012/02/27/15/32/background-17309_640.jpg');
+  height: 400px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:50px;
+}
+
+.bio h2{
+	font-size:45px;
+	font-family:times;
+	font-weight:800;
+}
+
+.bio h2, .bio p{
+	margin:10px;
+}
+#ico {
+	width:40px;
+	height:40px;
+	border-radius:100%;
+}
+
+#MyPhoto{
+	width:400px;
+	height:320px;
+	border-radius:50%;
+	margin:5px auto 5px;
+}
+
+.first {
+	border: 10px ridge green;
+	margin: 10px;
+}
+
+.second .left{
+	border: 10px ridge green;
+	margin: 10px;
+}
+
+#me {
+	width:150px;
+	height:150px;
+	margin:20px auto 30px;
+	border-radius: 100%; 
+	border: 0px solid gray;
+	border-bottom-width:1px;
+}
+
+.Contact{
+	text-align: center;
+}
+
+.Message{
+	font-size:25px;
+	font-family: 'Oswald', sans-serif;
+	font-weight:800;
+}
+form table {width: 375px; margin:0px auto 16px;}
+form th {
+    width: 85px;
+    border-right: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 8px;
+}
+form td {
+    padding: 15px 15px;
+}
+form td select,
+form td input,
+form td textarea {
+    width: 100%;
+}
+form input[type="submit"] {
+    width: 375px;
+    text-align: center;
+    border: 1px solid #8e8e46;
+    background: #9c9f4e;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+    margin:0px auto 16px;
+    vertical-align: middle;
+}
